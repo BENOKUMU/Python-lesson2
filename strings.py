@@ -21,3 +21,15 @@ this within the brackets [ \n ], or just a NEWLINE within
 the variable assignment will also show up.
 """
 print(para_str)
+
+
+name = "Benjamin Okumu"
+print(name.title())
+
+first_name = "Benjamin "
+last_name = "Okumu"
+full_name = f"{first_name} {last_name}"
+print(full_name.lower())
+print(full_name.upper())
+
+print(f"Hello, {first_name} {last_name}")
